@@ -2,7 +2,6 @@
 
 #### 介绍
 对任何JSON的格式化、压缩和转义，基于fastjson
-The formatting, compression and escape of any JSON are based on fastjson
 
 #### 软件架构
 软件架构说明
