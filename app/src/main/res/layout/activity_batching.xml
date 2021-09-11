@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="3dp"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_weight="1.0">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="JSON文件夹路径"
+			android:layout_weight="1.0"
+			android:layout_gravity="center"
+			android:layout_margin="10dp"
+			android:typeface="monospace"/>
+
+		<View
+			android:background="?android:attr/dividerHorizontal"
+			android:layout_width="1dp"
+			android:layout_height="match_parent"
+			android:layout_margin="10dp"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			style="?android:attr/buttonStyleSmall"
+			android:layout_height="wrap_content"
+			android:text="选择路径"
+			android:layout_weight="1.0"
+			android:layout_margin="10dp"
+			android:layout_gravity="center"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="2dp"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:layout_weight="1.0">
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="选项"
+			android:layout_margin="10dp"/>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_margin="10dp"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="10dp"
+			android:layout_weight="1.0">
+
+			<RadioGroup
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:layout_weight="1.0">
+
+				<RadioButton
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:text="格式化"
+					android:gravity="right|center"
+					android:shadowRadius="12.5"
+					android:elevation="10dp"
+					android:shadowColor="#FF43DE4B"
+					android:ems="1"/>
+
+				<RadioButton
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:text="转义"
+					android:gravity="right|center"
+					android:shadowRadius="12.5"
+					android:elevation="10dp"
+					android:shadowColor="#FF43DE4B"
+					android:ems="2"/>
+
+				<RadioButton
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:text="压缩"
+					android:gravity="right|center"
+					android:shadowRadius="12.5"
+					android:elevation="10dp"
+					android:shadowColor="#FF43DE4B"
+					android:ems="3"/>
+
+			</RadioGroup>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_margin="10dp"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="10dp"
+				android:layout_weight="1.0">
+
+				<CheckBox
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:gravity="right|center"
+					android:text="语法检查"
+					android:shadowColor="#FFEB1A1A"
+					android:shadowRadius="12.5"
+					android:layout_weight="1.0"/>
+
+				<CheckBox
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_margin="10dp"
+					android:gravity="right|center"
+					android:text="处理压缩文件里的JSON文件"
+					android:shadowColor="#FFEB1A1A"
+					android:shadowRadius="12.5"
+					android:layout_weight="1.0"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="2dp"/>
+
+</LinearLayout>
+
