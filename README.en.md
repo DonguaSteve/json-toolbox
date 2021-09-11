@@ -1,7 +1,6 @@
-# JSON工具箱
+# JSON toolbox
 
 #### Description
-对任何JSON的格式化、压缩和转义，基于fastjson
 The formatting, compression and escape of any JSON are based on fastjson
 
 #### Software Architecture
