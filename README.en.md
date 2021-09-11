@@ -1,36 +1,20 @@
 # JSON toolbox
-
-#### Description
+#### Introduction
 The formatting, compression and escape of any JSON are based on fastjson
-
-#### Software Architecture
-Software architecture description
-
-#### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### Software architecture
+As shown in the source code
+#### Participation contribution
+1. Fork warehouse
+2. New feat_ XXX branch
+3. Submission code
+4. Create a new pull request
+#### Stunt
+1. Use Readme 30.MD to support different languages, such as readme.en.md, Readme.zh.md
+2. Gitee official blog [blog. Gitee. Com]（ https://blog.gitee.com )
+3. You can[ https://gitee.com/explore ]( https://gitee.com/explore ）Use this address to learn about excellent open source projects on gitee
+4.  [GVP]( https://gitee.com/gvp ）The full name is gitee's most valuable open source project and an excellent open source project comprehensively evaluated
+5. Manual officially provided by gitee[ https://gitee.com/help ]( https://gitee.com/help )
+6. Gitee cover character is a column used to show the style of gitee members[ https://gitee.com/gitee-stars/ ]( https://gitee.com/gitee-stars/ )
+#### Contact us
+1. Author QQ No.: 551420874
+2. QQ group No.: 808650617
