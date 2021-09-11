@@ -9,7 +9,7 @@ As shown in the source code
 3. Submission code
 4. Create a new pull request
 #### Stunt
-1. Use Readme.MD to support different languages, such as README\_ en.md, README\_ zh.md
+1. Use README\_XXX.MD to support different languages, such as README\_en.md, README\_zh.md
 2. Gitee official blog [blog. Gitee. Com]（ https://blog.gitee.com )
 3. You can[ https://gitee.com/explore ]( https://gitee.com/explore ）Use this address to learn about excellent open source projects on gitee
 4.  [GVP]( https://gitee.com/gvp ）The full name is gitee's most valuable open source project and an excellent open source project comprehensively evaluated
